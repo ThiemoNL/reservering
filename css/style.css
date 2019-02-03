@@ -1,0 +1,260 @@
+body {
+    background-color: lightblue;
+}
+
+/* alles wat in de Label zit van de forum*/
+label {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Overal waar de Type text is voert hij dit uit*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 30px;
+    transition: all 1s;
+}
+/* Overal waar de Type password is voert hij dit uit*/
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 30px;
+    transition: all 1s;
+}/* Zelfde maar dan voor e-mail*/
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 30px;
+    transition: all 1s;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.data-field {
+    border-radius: 5px;
+    padding: 20px;
+}
+div.data-submit {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* totaalblock registreer ding*/
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.login {
+    border-radius: 10px ;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* webpagina maximaal klein gemaakt */
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 25px;
+    }
+    input[type=password], select{
+        font-size: 15px;
+    }
+    input[type=text], select{
+        font-size: 15px;
+    }
+    input[type=email], select{
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    input[type=password], select{
+        font-size: 15px;
+    }
+    input[type=text], select{
+        font-size: 15px;
+    }
+    input[type=email], select{
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+}
+
+.data-submit1{
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+}
+
+#orders {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#orders td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#orders tr:nth-child(even){background-color: #f2f2f2;}
+
+#orders tr:hover {background-color: #ddd;}
+
+#orders th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+table{
+    width: 100%;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+/* This would be the way to go without PHP */
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    padding: 0 10px;
+    font-size: 25px;
+    text-align: center;
+}
+td.image img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errors {
+    color: red;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:50px;
+    height:50px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: green;
+}
+
+input[type=date], select {
+    width: 320px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+input[type=number], select {
+    width: 320px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: all 1s;
+}
+label {
+    color: black;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+}
